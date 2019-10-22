@@ -1,0 +1,24 @@
+@charset"utf-8";
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,th,td{margin:0;padding:0;}
+div{box-sizing: border-box;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+ol,ul{list-style:none;}
+li{list-style: none;}
+th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+/* sup{vertical-align:text-top;}
+sub{vertical-align:text-bottom;} */
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}
+input,textarea,select{font-size:100%;outline: none;background-color: transparent;border: none;}
+a,a:link,a:visited,a:hover,a:active{text-decoration: none;}
+i,em{vertical-align:middle;font-style:normal;}
+body{
+	font:12px/1.5 "Microsoft YaHei",tahoma,arial,'Hiragino Sans GB',"\5b8b\4f53",sans-serif;
+	overflow-x: hidden;
+}
+.clearfix:after{display:block;content:"";clear:both;}
+.fl{float: left;}
+.fr{float: right;}
+.w12{width: 1200px;margin: 0 auto;}
+.fixed:before,.clearfix:before,body:before,.header:before,.main:before,.footer:before{content: '';display: table;}
